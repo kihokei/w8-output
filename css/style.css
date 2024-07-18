@@ -14,6 +14,7 @@ body{
 .grid{
     display:flex;
     flex-wrap:wrap;
+    margin:30px;
 }
 .grid-item{
     padding:5px;
@@ -33,16 +34,25 @@ body{
     background:#eb0cd8;
     width:100%;
     min-height:50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 .block2{
     background:#0cae86;
     width:100%;
     min-height:50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 .block3{
     background:#000;
     width:100%;
     min-height:50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 @media screen and (max-width:768px){
     .grid-col2>.grid-item,
